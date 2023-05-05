@@ -12,7 +12,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "AEWalletSDK",
-            targets: ["AEWalletSDK","AETapSdk"]),
+            targets: ["AEWalletSDK","TapSdk"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -22,7 +22,7 @@ let package = Package(
         .target(
             name: "AEWalletSDK",
             dependencies: []),
-        .binaryTarget(name: "AETapSdk", path: "artifacts/TapSdk.xcframework"),
+        .binaryTarget(name: "TapSdk", path: "artifacts/TapSdk.xcframework"),
         .testTarget(
             name: "AEWalletSDKTests",
             dependencies: ["AEWalletSDK"]),
