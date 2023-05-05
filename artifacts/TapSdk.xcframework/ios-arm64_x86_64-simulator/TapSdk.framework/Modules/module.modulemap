@@ -1,0 +1,11 @@
+framework module TapSdk {
+  umbrella header "TapSdk.h"
+
+  export *
+  module * { export * }
+}
+
+module TapSdk.Swift {
+  header "TapSdk-Swift.h"
+  requires objc
+}
