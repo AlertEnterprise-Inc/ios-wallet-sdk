@@ -2,9 +2,9 @@
 This document provides the information about Wallet SDK.
 This section includes the following topics.
 
-###Installation
+###Usage
 
-`**import TapSdk** ` in the Swift file use classes and delegate.
+`import TapSdk` in the Swift file to use classes and delegate.
 
 ##Classes
 The following classes are available globally.
