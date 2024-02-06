@@ -25,6 +25,26 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TapSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TapSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "WlPassResult",
         "printedName": "WlPassResult",
@@ -310,6 +330,246 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "alreadyProvisioned",
+            "printedName": "alreadyProvisioned",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TapSdk.WlPassResult.Type) -> TapSdk.WlPassResult",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WlPassResult",
+                    "printedName": "TapSdk.WlPassResult",
+                    "usr": "s:6TapSdk12WlPassResultO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TapSdk.WlPassResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WlPassResult",
+                        "printedName": "TapSdk.WlPassResult",
+                        "usr": "s:6TapSdk12WlPassResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6TapSdk12WlPassResultO18alreadyProvisionedyA2CmF",
+            "mangledName": "$s6TapSdk12WlPassResultO18alreadyProvisionedyA2CmF",
+            "moduleName": "TapSdk",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cannotAddSePassForConfig",
+            "printedName": "cannotAddSePassForConfig",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TapSdk.WlPassResult.Type) -> TapSdk.WlPassResult",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WlPassResult",
+                    "printedName": "TapSdk.WlPassResult",
+                    "usr": "s:6TapSdk12WlPassResultO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TapSdk.WlPassResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WlPassResult",
+                        "printedName": "TapSdk.WlPassResult",
+                        "usr": "s:6TapSdk12WlPassResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6TapSdk12WlPassResultO011cannotAddSeD9ForConfigyA2CmF",
+            "mangledName": "$s6TapSdk12WlPassResultO011cannotAddSeD9ForConfigyA2CmF",
+            "moduleName": "TapSdk",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "seConfigError",
+            "printedName": "seConfigError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TapSdk.WlPassResult.Type) -> TapSdk.WlPassResult",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WlPassResult",
+                    "printedName": "TapSdk.WlPassResult",
+                    "usr": "s:6TapSdk12WlPassResultO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TapSdk.WlPassResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WlPassResult",
+                        "printedName": "TapSdk.WlPassResult",
+                        "usr": "s:6TapSdk12WlPassResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6TapSdk12WlPassResultO13seConfigErroryA2CmF",
+            "mangledName": "$s6TapSdk12WlPassResultO13seConfigErroryA2CmF",
+            "moduleName": "TapSdk",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "badWatchProvisioningBlob",
+            "printedName": "badWatchProvisioningBlob",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TapSdk.WlPassResult.Type) -> TapSdk.WlPassResult",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WlPassResult",
+                    "printedName": "TapSdk.WlPassResult",
+                    "usr": "s:6TapSdk12WlPassResultO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TapSdk.WlPassResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WlPassResult",
+                        "printedName": "TapSdk.WlPassResult",
+                        "usr": "s:6TapSdk12WlPassResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6TapSdk12WlPassResultO24badWatchProvisioningBlobyA2CmF",
+            "mangledName": "$s6TapSdk12WlPassResultO24badWatchProvisioningBlobyA2CmF",
+            "moduleName": "TapSdk",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "notProvisionedOniPhone",
+            "printedName": "notProvisionedOniPhone",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TapSdk.WlPassResult.Type) -> TapSdk.WlPassResult",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WlPassResult",
+                    "printedName": "TapSdk.WlPassResult",
+                    "usr": "s:6TapSdk12WlPassResultO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TapSdk.WlPassResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WlPassResult",
+                        "printedName": "TapSdk.WlPassResult",
+                        "usr": "s:6TapSdk12WlPassResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6TapSdk12WlPassResultO22notProvisionedOniPhoneyA2CmF",
+            "mangledName": "$s6TapSdk12WlPassResultO22notProvisionedOniPhoneyA2CmF",
+            "moduleName": "TapSdk",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "noWatchPaired",
+            "printedName": "noWatchPaired",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TapSdk.WlPassResult.Type) -> TapSdk.WlPassResult",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WlPassResult",
+                    "printedName": "TapSdk.WlPassResult",
+                    "usr": "s:6TapSdk12WlPassResultO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TapSdk.WlPassResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WlPassResult",
+                        "printedName": "TapSdk.WlPassResult",
+                        "usr": "s:6TapSdk12WlPassResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6TapSdk12WlPassResultO13noWatchPairedyA2CmF",
+            "mangledName": "$s6TapSdk12WlPassResultO13noWatchPairedyA2CmF",
+            "moduleName": "TapSdk",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -441,6 +701,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TapSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "WlWalletControllerDelegate",
         "printedName": "WlWalletControllerDelegate",
@@ -459,7 +729,7 @@
                 "kind": "TypeNominal",
                 "name": "WlWalletController",
                 "printedName": "TapSdk.WlWalletController",
-                "usr": "c:@M@TapSdk@objc(cs)WlWalletController"
+                "usr": "s:6TapSdk18WlWalletControllerC"
               },
               {
                 "kind": "TypeNominal",
@@ -495,7 +765,7 @@
                 "kind": "TypeNominal",
                 "name": "WlWalletController",
                 "printedName": "TapSdk.WlWalletController",
-                "usr": "c:@M@TapSdk@objc(cs)WlWalletController"
+                "usr": "s:6TapSdk18WlWalletControllerC"
               },
               {
                 "kind": "TypeNominal",
@@ -531,7 +801,7 @@
                 "kind": "TypeNominal",
                 "name": "WlWalletController",
                 "printedName": "TapSdk.WlWalletController",
-                "usr": "c:@M@TapSdk@objc(cs)WlWalletController"
+                "usr": "s:6TapSdk18WlWalletControllerC"
               },
               {
                 "kind": "TypeNominal",
@@ -567,7 +837,7 @@
                 "kind": "TypeNominal",
                 "name": "WlWalletController",
                 "printedName": "TapSdk.WlWalletController",
-                "usr": "c:@M@TapSdk@objc(cs)WlWalletController"
+                "usr": "s:6TapSdk18WlWalletControllerC"
               }
             ],
             "declKind": "Func",
@@ -597,7 +867,7 @@
                 "kind": "TypeNominal",
                 "name": "WlWalletController",
                 "printedName": "TapSdk.WlWalletController",
-                "usr": "c:@M@TapSdk@objc(cs)WlWalletController"
+                "usr": "s:6TapSdk18WlWalletControllerC"
               }
             ],
             "declKind": "Func",
@@ -618,10 +888,46 @@
         "usr": "s:6TapSdk26WlWalletControllerDelegateP",
         "mangledName": "$s6TapSdk26WlWalletControllerDelegateP",
         "moduleName": "TapSdk",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TapSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WatchConnectivity",
+        "printedName": "WatchConnectivity",
+        "declKind": "Import",
+        "moduleName": "TapSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TapSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PassKit",
+        "printedName": "PassKit",
+        "declKind": "Import",
+        "moduleName": "TapSdk"
       },
       {
         "kind": "Import",
@@ -654,7 +960,7 @@
                 "kind": "TypeNominal",
                 "name": "WlWalletController",
                 "printedName": "TapSdk.WlWalletController",
-                "usr": "c:@M@TapSdk@objc(cs)WlWalletController"
+                "usr": "s:6TapSdk18WlWalletControllerC"
               }
             ],
             "declKind": "Var",
@@ -681,7 +987,7 @@
                     "kind": "TypeNominal",
                     "name": "WlWalletController",
                     "printedName": "TapSdk.WlWalletController",
-                    "usr": "c:@M@TapSdk@objc(cs)WlWalletController"
+                    "usr": "s:6TapSdk18WlWalletControllerC"
                   }
                 ],
                 "declKind": "Accessor",
@@ -704,17 +1010,8 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "TapSdk.WlWalletControllerDelegate?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "WlWalletControllerDelegate",
-                    "printedName": "TapSdk.WlWalletControllerDelegate",
-                    "usr": "s:6TapSdk26WlWalletControllerDelegateP"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "WeakStorage",
+                "printedName": "TapSdk.WlWalletControllerDelegate?"
               }
             ],
             "declKind": "Var",
@@ -724,9 +1021,11 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
+              "ReferenceOwnership",
               "AccessControl",
               "RawDocComment"
             ],
+            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -831,6 +1130,28 @@
           },
           {
             "kind": "Function",
+            "name": "isWatchPairedToPhone",
+            "printedName": "isWatchPairedToPhone()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6TapSdk18WlWalletControllerC20isWatchPairedToPhoneSbyF",
+            "mangledName": "$s6TapSdk18WlWalletControllerC20isWatchPairedToPhoneSbyF",
+            "moduleName": "TapSdk",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "startPassProvisioning",
             "printedName": "startPassProvisioning()",
             "children": [
@@ -903,8 +1224,8 @@
           },
           {
             "kind": "Function",
-            "name": "addSecureElementPassViewController",
-            "printedName": "addSecureElementPassViewController(_:didFinishAdding:error:)",
+            "name": "syncPassToWatch",
+            "printedName": "syncPassToWatch(parentViewController:thumbnail:displayName:description:watchProvisioningBlob:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -913,442 +1234,807 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "PKAddSecureElementPassViewController",
-                "printedName": "PassKit.PKAddSecureElementPassViewController",
-                "usr": "c:objc(cs)PKAddSecureElementPassViewController"
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
               },
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "PassKit.PKSecureElementPass?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PKSecureElementPass",
-                    "printedName": "PassKit.PKSecureElementPass",
-                    "usr": "c:objc(cs)PKSecureElementPass"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "CGImage",
+                "printedName": "CoreGraphics.CGImage",
+                "usr": "c:@T@CGImageRef"
               },
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Error?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Error",
-                    "printedName": "Swift.Error",
-                    "usr": "s:s5ErrorP"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@TapSdk@objc(cs)WlWalletController(im)addSecureElementPassViewController:didFinishAddingSecureElementPass:error:",
-            "mangledName": "$s6TapSdk18WlWalletControllerC024addSecureElementPassViewE0_15didFinishAdding5errorySo05PKAddghijE0C_So08PKSecurehI0CSgs5Error_pSgtF",
+            "usr": "s:6TapSdk18WlWalletControllerC15syncPassToWatch010parentViewE09thumbnail11displayName11description21watchProvisioningBlobySo06UIViewE0C_So10CGImageRefaS3StF",
+            "mangledName": "$s6TapSdk18WlWalletControllerC15syncPassToWatch010parentViewE09thumbnail11displayName11description21watchProvisioningBlobySo06UIViewE0C_So10CGImageRefaS3StF",
             "moduleName": "TapSdk",
-            "objc_name": "addSecureElementPassViewController:didFinishAddingSecureElementPass:error:",
             "declAttributes": [
-              "ObjC",
               "AccessControl",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "addSecureElementPassViewController",
-            "printedName": "addSecureElementPassViewController(_:didFinishAddingSecureElementPasses:error:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "PKAddSecureElementPassViewController",
-                "printedName": "PassKit.PKAddSecureElementPassViewController",
-                "usr": "c:objc(cs)PKAddSecureElementPassViewController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[PassKit.PKSecureElementPass]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[PassKit.PKSecureElementPass]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PKSecureElementPass",
-                        "printedName": "PassKit.PKSecureElementPass",
-                        "usr": "c:objc(cs)PKSecureElementPass"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Error?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Error",
-                    "printedName": "Swift.Error",
-                    "usr": "s:s5ErrorP"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@TapSdk@objc(cs)WlWalletController(im)addSecureElementPassViewController:didFinishAddingSecureElementPasses:error:",
-            "mangledName": "$s6TapSdk18WlWalletControllerC024addSecureElementPassViewE0_015didFinishAddinggH6Passes5errorySo05PKAddghijE0C_SaySo08PKSecurehI0CGSgs5Error_pSgtF",
-            "moduleName": "TapSdk",
-            "objc_name": "addSecureElementPassViewController:didFinishAddingSecureElementPasses:error:",
-            "declAttributes": [
-              "ObjC",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "WlWalletController",
-                "printedName": "TapSdk.WlWalletController",
-                "usr": "c:@M@TapSdk@objc(cs)WlWalletController"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@TapSdk@objc(cs)WlWalletController(im)init",
-            "mangledName": "$s6TapSdk18WlWalletControllerCACycfc",
-            "moduleName": "TapSdk",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@TapSdk@objc(cs)WlWalletController",
+        "usr": "s:6TapSdk18WlWalletControllerC",
         "mangledName": "$s6TapSdk18WlWalletControllerC",
         "moduleName": "TapSdk",
         "declAttributes": [
           "AccessControl",
-          "RawDocComment",
-          "ObjC"
+          "RawDocComment"
         ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TapSdk",
+        "declAttributes": [
+          "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "PassKit",
+        "printedName": "PassKit",
+        "declKind": "Import",
+        "moduleName": "TapSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TapSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PassKit",
+        "printedName": "PassKit",
+        "declKind": "Import",
+        "moduleName": "TapSdk"
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/taylor\/src\/leaf-for-mobile\/iOS\/TapSdk\/TapSdk\/WlProvisioningBlob.swift",
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlWatchProvisioningBlob.swift",
+      "kind": "StringLiteral",
+      "offset": 695,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlWatchProvisioningBlob.swift",
+      "kind": "StringLiteral",
+      "offset": 750,
+      "length": 36,
+      "value": "\"provisioning_credential_identifier\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlWatchProvisioningBlob.swift",
+      "kind": "StringLiteral",
+      "offset": 828,
+      "length": 29,
+      "value": "\"sharing_instance_identifier\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlWatchProvisioningBlob.swift",
+      "kind": "StringLiteral",
+      "offset": 895,
+      "length": 24,
+      "value": "\"digitization_reference\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlWatchProvisioningBlob.swift",
+      "kind": "StringLiteral",
+      "offset": 695,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlWatchProvisioningBlob.swift",
+      "kind": "StringLiteral",
+      "offset": 750,
+      "length": 36,
+      "value": "\"provisioning_credential_identifier\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlWatchProvisioningBlob.swift",
+      "kind": "StringLiteral",
+      "offset": 828,
+      "length": 29,
+      "value": "\"sharing_instance_identifier\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlWatchProvisioningBlob.swift",
+      "kind": "StringLiteral",
+      "offset": 895,
+      "length": 24,
+      "value": "\"digitization_reference\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlProvisioningBlob.swift",
       "kind": "StringLiteral",
       "offset": 257,
       "length": 7,
       "value": "\"apple\""
     },
     {
-      "filePath": "\/Users\/taylor\/src\/leaf-for-mobile\/iOS\/TapSdk\/TapSdk\/WlProvisioningBlob.swift",
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlProvisioningBlob.swift",
       "kind": "StringLiteral",
-      "offset": 425,
+      "offset": 424,
       "length": 13,
       "value": "\"wallet_type\""
     },
     {
-      "filePath": "\/Users\/taylor\/src\/leaf-for-mobile\/iOS\/TapSdk\/TapSdk\/WlProvisioningBlob.swift",
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlProvisioningBlob.swift",
       "kind": "StringLiteral",
-      "offset": 487,
+      "offset": 486,
       "length": 28,
       "value": "\"provisioning_credential_id\""
     },
     {
-      "filePath": "\/Users\/taylor\/src\/leaf-for-mobile\/iOS\/TapSdk\/TapSdk\/WlProvisioningBlob.swift",
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlProvisioningBlob.swift",
       "kind": "StringLiteral",
-      "offset": 557,
+      "offset": 556,
       "length": 21,
       "value": "\"sharing_instance_id\""
     },
     {
-      "filePath": "\/Users\/taylor\/src\/leaf-for-mobile\/iOS\/TapSdk\/TapSdk\/WlProvisioningBlob.swift",
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlProvisioningBlob.swift",
       "kind": "StringLiteral",
-      "offset": 425,
+      "offset": 424,
       "length": 13,
       "value": "\"wallet_type\""
     },
     {
-      "filePath": "\/Users\/taylor\/src\/leaf-for-mobile\/iOS\/TapSdk\/TapSdk\/WlProvisioningBlob.swift",
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlProvisioningBlob.swift",
       "kind": "StringLiteral",
-      "offset": 487,
+      "offset": 486,
       "length": 28,
       "value": "\"provisioning_credential_id\""
     },
     {
-      "filePath": "\/Users\/taylor\/src\/leaf-for-mobile\/iOS\/TapSdk\/TapSdk\/WlProvisioningBlob.swift",
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlProvisioningBlob.swift",
       "kind": "StringLiteral",
-      "offset": 557,
+      "offset": 556,
       "length": 21,
       "value": "\"sharing_instance_id\""
     },
     {
-      "filePath": "\/Users\/taylor\/src\/leaf-for-mobile\/iOS\/TapSdk\/TapSdk\/WlPassResult.swift",
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlPassResult.swift",
       "kind": "IntegerLiteral",
       "offset": 354,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/taylor\/src\/leaf-for-mobile\/iOS\/TapSdk\/TapSdk\/WlPassResult.swift",
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlPassResult.swift",
       "kind": "IntegerLiteral",
-      "offset": 416,
+      "offset": 412,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/taylor\/src\/leaf-for-mobile\/iOS\/TapSdk\/TapSdk\/WlPassResult.swift",
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlPassResult.swift",
       "kind": "IntegerLiteral",
-      "offset": 495,
+      "offset": 487,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/taylor\/src\/leaf-for-mobile\/iOS\/TapSdk\/TapSdk\/WlPassResult.swift",
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlPassResult.swift",
       "kind": "IntegerLiteral",
-      "offset": 592,
+      "offset": 580,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/taylor\/src\/leaf-for-mobile\/iOS\/TapSdk\/TapSdk\/WlPassResult.swift",
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlPassResult.swift",
       "kind": "IntegerLiteral",
-      "offset": 711,
+      "offset": 695,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/taylor\/src\/leaf-for-mobile\/iOS\/TapSdk\/TapSdk\/WlPassResult.swift",
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlPassResult.swift",
       "kind": "IntegerLiteral",
-      "offset": 830,
+      "offset": 810,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/taylor\/src\/leaf-for-mobile\/iOS\/TapSdk\/TapSdk\/WlPassResult.swift",
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlPassResult.swift",
       "kind": "IntegerLiteral",
-      "offset": 934,
+      "offset": 910,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/taylor\/src\/leaf-for-mobile\/iOS\/TapSdk\/TapSdk\/WlPassResult.swift",
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlPassResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1008,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlPassResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1157,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlPassResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1275,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlPassResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1389,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlPassResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1521,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlPassResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1620,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlPassResult.swift",
       "kind": "IntegerLiteral",
       "offset": 354,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/taylor\/src\/leaf-for-mobile\/iOS\/TapSdk\/TapSdk\/WlPassResult.swift",
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlPassResult.swift",
       "kind": "IntegerLiteral",
-      "offset": 416,
+      "offset": 412,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/taylor\/src\/leaf-for-mobile\/iOS\/TapSdk\/TapSdk\/WlPassResult.swift",
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlPassResult.swift",
       "kind": "IntegerLiteral",
-      "offset": 495,
+      "offset": 487,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/taylor\/src\/leaf-for-mobile\/iOS\/TapSdk\/TapSdk\/WlPassResult.swift",
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlPassResult.swift",
       "kind": "IntegerLiteral",
-      "offset": 592,
+      "offset": 580,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/taylor\/src\/leaf-for-mobile\/iOS\/TapSdk\/TapSdk\/WlPassResult.swift",
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlPassResult.swift",
       "kind": "IntegerLiteral",
-      "offset": 711,
+      "offset": 695,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/taylor\/src\/leaf-for-mobile\/iOS\/TapSdk\/TapSdk\/WlPassResult.swift",
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlPassResult.swift",
       "kind": "IntegerLiteral",
-      "offset": 830,
+      "offset": 810,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/taylor\/src\/leaf-for-mobile\/iOS\/TapSdk\/TapSdk\/WlPassResult.swift",
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlPassResult.swift",
       "kind": "IntegerLiteral",
-      "offset": 934,
+      "offset": 910,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/taylor\/src\/leaf-for-mobile\/iOS\/TapSdk\/TapSdk\/WlPassResult.swift",
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlPassResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1008,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlPassResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1157,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlPassResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1275,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlPassResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1389,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlPassResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1521,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlPassResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1620,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlPassResult.swift",
       "kind": "IntegerLiteral",
       "offset": 354,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/taylor\/src\/leaf-for-mobile\/iOS\/TapSdk\/TapSdk\/WlPassResult.swift",
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlPassResult.swift",
       "kind": "IntegerLiteral",
-      "offset": 416,
+      "offset": 412,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/taylor\/src\/leaf-for-mobile\/iOS\/TapSdk\/TapSdk\/WlPassResult.swift",
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlPassResult.swift",
       "kind": "IntegerLiteral",
-      "offset": 495,
+      "offset": 487,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/taylor\/src\/leaf-for-mobile\/iOS\/TapSdk\/TapSdk\/WlPassResult.swift",
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlPassResult.swift",
       "kind": "IntegerLiteral",
-      "offset": 592,
+      "offset": 580,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/taylor\/src\/leaf-for-mobile\/iOS\/TapSdk\/TapSdk\/WlPassResult.swift",
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlPassResult.swift",
       "kind": "IntegerLiteral",
-      "offset": 711,
+      "offset": 695,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/taylor\/src\/leaf-for-mobile\/iOS\/TapSdk\/TapSdk\/WlPassResult.swift",
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlPassResult.swift",
       "kind": "IntegerLiteral",
-      "offset": 830,
+      "offset": 810,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/taylor\/src\/leaf-for-mobile\/iOS\/TapSdk\/TapSdk\/WlPassResult.swift",
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlPassResult.swift",
       "kind": "IntegerLiteral",
-      "offset": 934,
+      "offset": 910,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/taylor\/src\/leaf-for-mobile\/iOS\/TapSdk\/TapSdk\/WlWalletController.swift",
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlPassResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1008,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlPassResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1157,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlPassResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1275,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlPassResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1389,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlPassResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1521,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Wavelynx\/WlPassResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1620,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/WlWalletController.swift",
       "kind": "StringLiteral",
-      "offset": 1668,
+      "offset": 215,
       "length": 3,
       "value": "\"-\""
     },
     {
-      "filePath": "\/Users\/taylor\/src\/leaf-for-mobile\/iOS\/TapSdk\/TapSdk\/WlWalletController.swift",
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/WlWalletController.swift",
       "kind": "StringLiteral",
-      "offset": 1713,
+      "offset": 259,
       "length": 4,
       "value": "\"SI\""
     },
     {
-      "filePath": "\/Users\/taylor\/src\/leaf-for-mobile\/iOS\/TapSdk\/TapSdk\/WlWalletController.swift",
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/WlWalletController.swift",
       "kind": "StringLiteral",
-      "offset": 1756,
+      "offset": 301,
       "length": 4,
       "value": "\"CI\""
     },
     {
-      "filePath": "\/Users\/taylor\/src\/leaf-for-mobile\/iOS\/TapSdk\/TapSdk\/WlWalletController.swift",
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/WlWalletController.swift",
       "kind": "StringLiteral",
-      "offset": 1863,
+      "offset": 355,
+      "length": 18,
+      "value": "\"nippon-spruce-qa\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/WlWalletController.swift",
+      "kind": "StringLiteral",
+      "offset": 2182,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/taylor\/src\/leaf-for-mobile\/iOS\/TapSdk\/TapSdk\/WlWalletController.swift",
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/WlWalletController.swift",
       "kind": "StringLiteral",
-      "offset": 1910,
+      "offset": 2236,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/WlWalletController.swift",
+      "kind": "StringLiteral",
+      "offset": 5615,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/WlWalletController.swift",
+      "kind": "StringLiteral",
+      "offset": 5658,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/WlWalletController.swift",
+      "kind": "StringLiteral",
+      "offset": 6719,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/WlWalletController.swift",
+      "kind": "StringLiteral",
+      "offset": 9247,
+      "length": 45,
+      "value": "\"error, no apple watch paired to this iPhone\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/WlWalletController.swift",
+      "kind": "StringLiteral",
+      "offset": 10516,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/WlWalletController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10569,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/WlWalletController.swift",
+      "kind": "StringLiteral",
+      "offset": 10630,
+      "length": 70,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/WlWalletController.swift",
+      "kind": "StringLiteral",
+      "offset": 10655,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/WlWalletController.swift",
+      "kind": "StringLiteral",
+      "offset": 10666,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/WlWalletController.swift",
+      "kind": "StringLiteral",
+      "offset": 10691,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/WlWalletController.swift",
+      "kind": "StringLiteral",
+      "offset": 10699,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/WlWalletController.swift",
+      "kind": "StringLiteral",
+      "offset": 10741,
+      "length": 73,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/WlWalletController.swift",
+      "kind": "StringLiteral",
+      "offset": 10769,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/WlWalletController.swift",
+      "kind": "StringLiteral",
+      "offset": 10780,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/WlWalletController.swift",
+      "kind": "StringLiteral",
+      "offset": 10805,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/WlWalletController.swift",
+      "kind": "StringLiteral",
+      "offset": 10813,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/WlWalletController.swift",
+      "kind": "StringLiteral",
+      "offset": 10830,
+      "length": 114,
+      "value": "\"generated wallet identifiers pcid: \""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/WlWalletController.swift",
+      "kind": "StringLiteral",
+      "offset": 10905,
+      "length": 3,
+      "value": "\" sid: \""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/WlWalletController.swift",
+      "kind": "StringLiteral",
+      "offset": 10943,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/WlWalletController.swift",
+      "kind": "StringLiteral",
+      "offset": 11278,
+      "length": 53,
+      "value": "\"provisioning result within apple pkpass: \""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/WlWalletController.swift",
+      "kind": "StringLiteral",
+      "offset": 11330,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Apple\/ApplePKPassHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1078,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Apple\/ApplePKPassHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1387,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Apple\/ApplePKPassHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 2041,
+      "length": 22,
+      "value": "\"create pass metadata\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Apple\/ApplePKPassHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 2269,
+      "length": 15,
+      "value": "\"get se config\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Apple\/ApplePKPassHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 2436,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Apple\/ApplePKPassHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 2657,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Apple\/ApplePKPassHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 2717,
+      "length": 28,
+      "value": "\"check if pass can be added\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Apple\/ApplePKPassHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 2988,
+      "length": 42,
+      "value": "\"pass can be added, start view controller\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Apple\/ApplePKPassHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3091,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Apple\/ApplePKPassHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 3140,
+      "length": 19,
+      "value": "\"cannot add passes\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Apple\/ApplePKPassHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 3262,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Apple\/ApplePKPassHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 3791,
+      "length": 39,
+      "value": "\"create sharable pass config >= ios 16\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Apple\/ApplePKPassHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 4473,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Apple\/ApplePKPassHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 4509,
+      "length": 38,
+      "value": "\"create sharable pass config < ios 16\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Apple\/ApplePKPassHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 4689,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Apple\/ApplePKPassHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 5330,
+      "length": 41,
+      "value": "\"did finish adding secure element passes\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Apple\/ApplePKPassHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 5491,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Apple\/ApplePKPassHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 5705,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Apple\/ApplePKPassHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 5744,
+      "length": 14,
+      "value": "\"passes added\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Apple\/ApplePKPassHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 5847,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jacksonprince\/Desktop\/Projects\/tap-sdk-ios\/TapFramework\/TapSdk\/TapSdk\/Apple\/ApplePKPassHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5907,
+      "length": 4,
+      "value": "true"
     }
   ]
 }

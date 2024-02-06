@@ -1,13 +1,15 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
-// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TapSdk
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TapSdk
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Foundation
 import PassKit
 import Swift
 @_exported import TapSdk
+import WatchConnectivity
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 public enum WlPassResult : Swift.Int {
   case controllerNotBound
   case success
@@ -16,28 +18,33 @@ public enum WlPassResult : Swift.Int {
   case alreadyProvisionedOnPhone
   case alreadyProvisionedOnWatch
   case errorGeneratingProvisioningBlob
+  case alreadyProvisioned
+  case cannotAddSePassForConfig
+  case seConfigError
+  case badWatchProvisioningBlob
+  case notProvisionedOniPhone
+  case noWatchPaired
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
   }
 }
-public protocol WlWalletControllerDelegate {
+public protocol WlWalletControllerDelegate : AnyObject {
   func wlWalletController(_ controller: TapSdk.WlWalletController, onEligibilityResult isEligible: Swift.Bool)
   func wlWalletController(_ controller: TapSdk.WlWalletController, onProvisioningReady provisioningBlob: Swift.String)
   func wlWalletController(_ controller: TapSdk.WlWalletController, onError reason: TapSdk.WlPassResult)
   func wlWalletControllerProvisioningPending(_ controller: TapSdk.WlWalletController)
   func wlWalletControllerProvisioningSuccess(_ controller: TapSdk.WlWalletController)
 }
-@objc @_inheritsConvenienceInitializers public class WlWalletController : ObjectiveC.NSObject, PassKit.PKAddSecureElementPassViewControllerDelegate {
+@_hasMissingDesignatedInitializers public class WlWalletController {
   public static let shared: TapSdk.WlWalletController
-  public var delegate: TapSdk.WlWalletControllerDelegate?
+  weak public var delegate: (any TapSdk.WlWalletControllerDelegate)?
   public func checkEligibility()
+  public func isWatchPairedToPhone() -> Swift.Bool
   public func startPassProvisioning()
   public func saveToWallet(parentViewController: UIKit.UIViewController, thumbnail: CoreGraphics.CGImage, displayName: Swift.String, description: Swift.String, saveLink: Swift.String)
-  @objc public func addSecureElementPassViewController(_ controller: PassKit.PKAddSecureElementPassViewController, didFinishAdding pass: PassKit.PKSecureElementPass?, error: Swift.Error?)
-  @objc public func addSecureElementPassViewController(_ controller: PassKit.PKAddSecureElementPassViewController, didFinishAddingSecureElementPasses passes: [PassKit.PKSecureElementPass]?, error: Swift.Error?)
-  @objc override dynamic public init()
+  public func syncPassToWatch(parentViewController: UIKit.UIViewController, thumbnail: CoreGraphics.CGImage, displayName: Swift.String, description: Swift.String, watchProvisioningBlob: Swift.String)
   @objc deinit
 }
 extension TapSdk.WlPassResult : Swift.Equatable {}

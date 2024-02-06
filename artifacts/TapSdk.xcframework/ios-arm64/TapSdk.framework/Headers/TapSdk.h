@@ -2,7 +2,7 @@
 //  TapSdk.h
 //  TapSdk
 //
-//  Created by taylor on 9/13/22.
+//  Created by taylor on 10/9/23.
 //
 
 #import <Foundation/Foundation.h>
@@ -12,3 +12,4 @@ FOUNDATION_EXPORT double TapSdkVersionNumber;
 
 //! Project version string for TapSdk.
 FOUNDATION_EXPORT const unsigned char TapSdkVersionString[];
+
