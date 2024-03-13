@@ -1,0 +1,6 @@
+framework module BerTlv {
+  umbrella header "BerTlv-watchOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
