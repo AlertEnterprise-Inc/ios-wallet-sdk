@@ -18,8 +18,7 @@ let package = Package(
     targets: [
         .target(
             name: "AEWalletSDK",
-            dependencies: []
-        ),
+            dependencies: [] ),
         .binaryTarget(name: "TapSdk", path: "artifacts/TapSdk.xcframework"),
         .binaryTarget(name: "SeosMobileKeysSDK", path: "Resources/SeosMobileKeysSDK.xcframework"),
         .binaryTarget(name: "OrigoSDK", path: "Resources/OrigoSDK.xcframework"),
