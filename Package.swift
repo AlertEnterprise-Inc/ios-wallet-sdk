@@ -18,7 +18,8 @@ let package = Package(
     targets: [
         .target(
             name: "AEWalletSDK",
-            dependencies: []),
+            dependencies: []
+        ),
         .binaryTarget(name: "TapSdk", path: "artifacts/TapSdk.xcframework"),
         .testTarget(
             name: "AEWalletSDKTests",
