@@ -1,0 +1,11 @@
+framework module OrigoSDK {
+  umbrella header "OrigoSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module OrigoSDK.Swift {
+  header "OrigoSDK-Swift.h"
+  requires objc
+}
